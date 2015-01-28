@@ -1,0 +1,35 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Carros</h1>
+
+    <a href="{{ path('car_save') }}">novo</a>
+    {{ include ('CarsBundle::Cars/form.html.twig', with_context = false) }}
+    <table class="records_list">
+        <thead>
+            <tr>
+                <th>código</th>
+                <th>marca</th>
+                <th>cor</th>
+                <th>ações</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for c in cars %}
+            <tr>
+                <td>{{ c.id | default('') }}</td>
+                <td>{{ c.brand | default('') }}</td>
+                <td>{{ c.color | default('') }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('car_form', { 'id': c.id | default('') }) }}">editar</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    {% endblock %}

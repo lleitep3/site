@@ -1,0 +1,16 @@
+car:
+    path:     /
+    defaults: { _controller: "CarsBundle:Cars:index" }
+    methods: [GET]
+
+car_form:
+    path:     /form/{id}
+    defaults: { _controller: "CarsBundle:Cars:form", id: null }
+
+car_save:
+    path:     /{id}
+    defaults: { _controller: "CarsBundle:Cars:save", id: null }
+    methods: [POST]
+
+
+

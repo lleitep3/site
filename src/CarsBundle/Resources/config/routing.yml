@@ -1,0 +1,7 @@
+cars_homepage:
+    path:     /
+    defaults: { _controller: CarsBundle:Default:index }
+
+cars_car:
+    resource: "@CarsBundle/Resources/config/routing/car.yml"
+    prefix:   /car

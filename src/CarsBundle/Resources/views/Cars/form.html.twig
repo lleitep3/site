@@ -1,0 +1,20 @@
+{% set car = {'id' : null, 'brand' : '', 'color' : ''} %}
+
+{% if (car.id) %}
+    {% set path_action = path( 'car_save', {'id': car.id} ) %}
+{% else %}
+    {% set path_action = path('car_save') %}
+{% endif %}
+<form method="POST" action="{{path_action}}">
+    <input type="hidden" value="{{ car.id}}" name="id">
+
+    <label> Marca :
+        <input type="text" value="{{ car.brand}}" name="brand">
+    </label>
+
+    <label> Cor :
+        <input type="text" value="{{ car.color}}" name="color">
+    </label>
+
+    <button>salvar</button>
+</form>
