@@ -3,7 +3,6 @@
 {% block body -%}
     <h1>Carros</h1>
 
-    <a href="{{ path('car_save') }}">novo</a>
     {{ include ('CarsBundle::Cars/form.html.twig', with_context = false) }}
     <div class="table-responsive">
         <table class="table">
