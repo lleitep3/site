@@ -18,15 +18,38 @@
             <tbody>
             {% for c in cars %}
                 <tr>
-                    <td>{{ c.id | default('') }}</td>
-                    <td>{{ c.brand | default('') }}</td>
-                    <td>{{ c.color | default('') }}</td>
+                    <td>{{ c.id }}</td>
+                    <td>{{ c.brand }}</td>
+                    <td>{{ c.color }}</td>
                     <td>
-                        <a href="{{ path('car_form', { 'id': c.id | default('') }) }}">editar</a>
+                        <a href="#" class="remove-item" data-link="{{ path('car_remove', { 'id': c.id }) }}">excluir</a><br/>
                     </td>
                 </tr>
             {% endfor %}
             </tbody>
         </table>
     </div>
+{% endblock %}
+
+{% block javascripts -%}
+<script type="text/javascript" src="{{ asset('jquery/jquery-2.1.3.min.js') }}"></script>
+<script type="text/javascript">
+
+$(function (){
+    $('.remove-item').on('click', function(){
+        var $that = $(this);
+
+        $.ajax({
+            type : 'DELETE',
+            url  : $(this).data('link'),
+            success: function (r) {
+                if (r.code == 0) {
+                    $that.closest('tr').remove();
+                }
+            }
+        });
+    });
+});
+
+</script>
 {% endblock %}

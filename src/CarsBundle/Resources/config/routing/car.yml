@@ -7,6 +7,11 @@ car_form:
     path:     /form/{id}
     defaults: { _controller: "CarsBundle:Cars:form", id: null }
 
+car_remove:
+    path:     /{id}
+    defaults: { _controller: "CarsBundle:Cars:remove"}
+    methods: [DELETE]
+
 car_save:
     path:     /{id}
     defaults: { _controller: "CarsBundle:Cars:save", id: null }

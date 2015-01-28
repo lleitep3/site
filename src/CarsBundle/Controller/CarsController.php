@@ -22,7 +22,7 @@ class CarsController extends Controller
 
     public function formAction()
     {
-        return $this->render('CarsBundle:Cars:form.html.twig', new Car);
+        return $this->render('CarsBundle:Cars:form.html.twig', ['car' => new Car]);
     }
 
     public function saveAction()
@@ -40,6 +40,27 @@ class CarsController extends Controller
             $response = new RedirectResponse('/car');
         } catch(\Exception $e) {
             $response = new Response('');
+            $response->setStatusCode(500, $e->getMessage());
+        }
+
+        return $response;
+    }
+
+    public function removeAction($id)
+    {
+        $response = new Response();
+
+        try {
+            (new CarsModel($this->getDoctrine()))->removeCar($id);
+
+            $response->setContent(json_encode([
+                                      'code' => 0,
+                                      'message' => "item excluido com sucesso"
+                                  ]));
+
+            $response->headers->set('Content-Type', 'application/json');
+
+        } catch(\Exception $e) {
             $response->setStatusCode(500, $e->getMessage());
         }
 
