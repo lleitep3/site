@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="Site Leandro Leite Profissional De TI, Desenvolvedor, Back-end, Front-end">
     <meta name="author" content="Leandro Leite">
+    <meta name="theme-color" content="#00838F">
 
     <title>Leandro Leite</title>
 
@@ -26,7 +27,7 @@
             </div>
             <p>
               Sou um <strong> Profissional </strong> dedicado tanto ao desenvolvimento de
-              <strong>interfaces (Front-end) </strong> de sites e sistemas, como tambem no
+              <strong>interfaces (Front-end) </strong> de sites e sistemas, como tambem ao
               desenvolvimento do <strong>Back-end</strong> dos mesmos.<br><br>
               Por aqui você verá por um pouco de minha <strong>experiência</strong> e <strong>opiniões!</strong>
             </p>
