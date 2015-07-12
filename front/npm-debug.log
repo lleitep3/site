@@ -1,0 +1,260 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.11.3
+3 info using node@v0.10.25
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies loading dependencies from /var/www/site/front/package.json
+6 warn package.json web@0.0.0 No license field.
+7 verbose install where, deps [ '/var/www/site/front',
+7 verbose install   [ 'grunt',
+7 verbose install     'grunt-autoprefixer',
+7 verbose install     'grunt-concurrent',
+7 verbose install     'grunt-contrib-clean',
+7 verbose install     'grunt-contrib-compass',
+7 verbose install     'grunt-contrib-concat',
+7 verbose install     'grunt-contrib-connect',
+7 verbose install     'grunt-contrib-copy',
+7 verbose install     'grunt-contrib-cssmin',
+7 verbose install     'grunt-contrib-htmlmin',
+7 verbose install     'grunt-contrib-imagemin',
+7 verbose install     'grunt-contrib-jshint',
+7 verbose install     'grunt-contrib-uglify',
+7 verbose install     'grunt-contrib-watch',
+7 verbose install     'grunt-filerev',
+7 verbose install     'grunt-google-cdn',
+7 verbose install     'grunt-karma',
+7 verbose install     'grunt-newer',
+7 verbose install     'grunt-ng-annotate',
+7 verbose install     'grunt-svgmin',
+7 verbose install     'grunt-usemin',
+7 verbose install     'grunt-wiredep',
+7 verbose install     'jshint-stylish',
+7 verbose install     'karma-jasmine',
+7 verbose install     'karma-phantomjs-launcher',
+7 verbose install     'load-grunt-tasks',
+7 verbose install     'time-grunt' ] ]
+8 verbose install where, peers [ '/var/www/site/front', [] ]
+9 verbose installManyTop reading for lifecycle /var/www/site/front/package.json
+10 info preinstall web@0.0.0
+11 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt/package.json
+12 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-autoprefixer/package.json
+13 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-concurrent/package.json
+14 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-contrib-clean/package.json
+15 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-contrib-compass/package.json
+16 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-contrib-concat/package.json
+17 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-contrib-connect/package.json
+18 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-contrib-copy/package.json
+19 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-contrib-cssmin/package.json
+20 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-contrib-htmlmin/package.json
+21 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-contrib-imagemin/package.json
+22 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-contrib-jshint/package.json
+23 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-contrib-uglify/package.json
+24 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-contrib-watch/package.json
+25 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-filerev/package.json
+26 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-google-cdn/package.json
+27 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-karma/package.json
+28 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-newer/package.json
+29 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-ng-annotate/package.json
+30 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-svgmin/package.json
+31 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-usemin/package.json
+32 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/grunt-wiredep/package.json
+33 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/jasmine-core/package.json
+34 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/jshint-stylish/package.json
+35 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/karma/package.json
+36 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/karma-jasmine/package.json
+37 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/karma-phantomjs-launcher/package.json
+38 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/load-grunt-tasks/package.json
+39 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/phantomjs/package.json
+40 verbose installManyTop reading scoped package data from /var/www/site/front/node_modules/time-grunt/package.json
+41 info package.json grunt@0.4.5 No license field.
+42 info package.json grunt-contrib-clean@0.6.0 No license field.
+43 info package.json grunt-contrib-compass@1.0.3 No license field.
+44 info package.json grunt-contrib-concat@0.5.1 No license field.
+45 info package.json grunt-contrib-connect@0.9.0 No license field.
+46 info package.json grunt-contrib-copy@0.7.0 No license field.
+47 info package.json grunt-contrib-cssmin@0.12.3 No license field.
+48 info package.json grunt-contrib-htmlmin@0.4.0 No license field.
+49 info package.json grunt-contrib-jshint@0.11.2 No license field.
+50 info package.json grunt-contrib-uglify@0.7.0 No license field.
+51 info package.json grunt-contrib-watch@0.6.1 No license field.
+52 info package.json grunt-filerev@2.3.1 license should be a valid SPDX license expression
+53 info package.json grunt-google-cdn@0.4.3 license should be a valid SPDX license expression
+54 info package.json grunt-svgmin@2.0.1 No license field.
+55 info package.json grunt-wiredep@2.0.0 No license field.
+56 info package.json phantomjs@1.9.17 No license field.
+57 info package.json grunt-contrib-imagemin@0.9.4 No license field.
+58 verbose readDependencies loading dependencies from /var/www/site/front/package.json
+59 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt/package.json
+60 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-autoprefixer/package.json
+61 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-concurrent/package.json
+62 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-contrib-clean/package.json
+63 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-contrib-compass/package.json
+64 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-contrib-concat/package.json
+65 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-contrib-connect/package.json
+66 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-contrib-copy/package.json
+67 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-contrib-cssmin/package.json
+68 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-contrib-htmlmin/package.json
+69 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-contrib-imagemin/package.json
+70 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-contrib-jshint/package.json
+71 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-contrib-uglify/package.json
+72 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-contrib-watch/package.json
+73 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-filerev/package.json
+74 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-google-cdn/package.json
+75 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-karma/package.json
+76 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-newer/package.json
+77 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-ng-annotate/package.json
+78 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-svgmin/package.json
+79 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-usemin/package.json
+80 verbose targetResolver reading package data from /var/www/site/front/node_modules/grunt-wiredep/package.json
+81 verbose targetResolver reading package data from /var/www/site/front/node_modules/jasmine-core/package.json
+82 verbose targetResolver reading package data from /var/www/site/front/node_modules/jshint-stylish/package.json
+83 verbose targetResolver reading package data from /var/www/site/front/node_modules/karma/package.json
+84 verbose targetResolver reading package data from /var/www/site/front/node_modules/karma-jasmine/package.json
+85 verbose targetResolver reading package data from /var/www/site/front/node_modules/karma-phantomjs-launcher/package.json
+86 verbose targetResolver reading package data from /var/www/site/front/node_modules/load-grunt-tasks/package.json
+87 verbose targetResolver reading package data from /var/www/site/front/node_modules/phantomjs/package.json
+88 verbose targetResolver reading package data from /var/www/site/front/node_modules/time-grunt/package.json
+89 verbose targetResolver reading package data from /var/www/site/front/node_modules/.bin/phantomjs/package.json
+90 verbose already installed skipping grunt-contrib-copy@^0.7.0 /var/www/site/front
+91 verbose already installed skipping grunt-contrib-cssmin@^0.12.0 /var/www/site/front
+92 verbose already installed skipping grunt-contrib-concat@^0.5.0 /var/www/site/front
+93 verbose already installed skipping grunt-contrib-htmlmin@^0.4.0 /var/www/site/front
+94 verbose already installed skipping grunt-contrib-imagemin@^0.9.2 /var/www/site/front
+95 verbose already installed skipping grunt-contrib-jshint@^0.11.0 /var/www/site/front
+96 verbose already installed skipping grunt-contrib-watch@^0.6.1 /var/www/site/front
+97 verbose already installed skipping grunt-contrib-uglify@^0.7.0 /var/www/site/front
+98 verbose already installed skipping grunt-filerev@^2.1.2 /var/www/site/front
+99 verbose already installed skipping grunt-google-cdn@^0.4.3 /var/www/site/front
+100 verbose already installed skipping grunt-karma@* /var/www/site/front
+101 verbose already installed skipping grunt-newer@^1.1.0 /var/www/site/front
+102 verbose already installed skipping grunt-ng-annotate@^0.9.2 /var/www/site/front
+103 verbose already installed skipping grunt-svgmin@^2.0.0 /var/www/site/front
+104 verbose already installed skipping grunt-usemin@^3.0.0 /var/www/site/front
+105 verbose already installed skipping grunt-wiredep@^2.0.0 /var/www/site/front
+106 verbose already installed skipping jshint-stylish@^1.0.0 /var/www/site/front
+107 verbose already installed skipping karma-jasmine@* /var/www/site/front
+108 verbose already installed skipping karma-phantomjs-launcher@* /var/www/site/front
+109 verbose already installed skipping load-grunt-tasks@^3.1.0 /var/www/site/front
+110 verbose already installed skipping time-grunt@^1.0.0 /var/www/site/front
+111 verbose already installed skipping grunt@^0.4.5 /var/www/site/front
+112 verbose already installed skipping grunt-concurrent@^1.0.0 /var/www/site/front
+113 verbose already installed skipping grunt-autoprefixer@^2.0.0 /var/www/site/front
+114 verbose already installed skipping grunt-contrib-clean@^0.6.0 /var/www/site/front
+115 verbose already installed skipping grunt-contrib-connect@^0.9.0 /var/www/site/front
+116 verbose already installed skipping grunt-contrib-compass@^1.0.0 /var/www/site/front
+117 silly install resolved []
+118 info build /var/www/site/front
+119 info linkStuff web@0.0.0
+120 silly linkStuff web@0.0.0 has /var/www/site as its parent node_modules
+121 verbose linkBins web@0.0.0
+122 verbose linkMans web@0.0.0
+123 verbose rebuildBundles web@0.0.0
+124 verbose rebuildBundles [ '.bin',
+124 verbose rebuildBundles   'grunt',
+124 verbose rebuildBundles   'grunt-autoprefixer',
+124 verbose rebuildBundles   'grunt-concurrent',
+124 verbose rebuildBundles   'grunt-contrib-clean',
+124 verbose rebuildBundles   'grunt-contrib-compass',
+124 verbose rebuildBundles   'grunt-contrib-concat',
+124 verbose rebuildBundles   'grunt-contrib-connect',
+124 verbose rebuildBundles   'grunt-contrib-copy',
+124 verbose rebuildBundles   'grunt-contrib-cssmin',
+124 verbose rebuildBundles   'grunt-contrib-htmlmin',
+124 verbose rebuildBundles   'grunt-contrib-imagemin',
+124 verbose rebuildBundles   'grunt-contrib-jshint',
+124 verbose rebuildBundles   'grunt-contrib-uglify',
+124 verbose rebuildBundles   'grunt-contrib-watch',
+124 verbose rebuildBundles   'grunt-filerev',
+124 verbose rebuildBundles   'grunt-google-cdn',
+124 verbose rebuildBundles   'grunt-karma',
+124 verbose rebuildBundles   'grunt-newer',
+124 verbose rebuildBundles   'grunt-ng-annotate',
+124 verbose rebuildBundles   'grunt-svgmin',
+124 verbose rebuildBundles   'grunt-usemin',
+124 verbose rebuildBundles   'grunt-wiredep',
+124 verbose rebuildBundles   'jasmine-core',
+124 verbose rebuildBundles   'jshint-stylish',
+124 verbose rebuildBundles   'karma',
+124 verbose rebuildBundles   'karma-jasmine',
+124 verbose rebuildBundles   'karma-phantomjs-launcher',
+124 verbose rebuildBundles   'load-grunt-tasks',
+124 verbose rebuildBundles   'phantomjs',
+124 verbose rebuildBundles   'time-grunt' ]
+125 verbose rebuild bundle /var/www/site/front/node_modules/jasmine-core
+126 info build /var/www/site/front/node_modules/jasmine-core
+127 info preinstall jasmine-core@2.3.4
+128 info linkStuff jasmine-core@2.3.4
+129 silly linkStuff jasmine-core@2.3.4 has /var/www/site/front/node_modules as its parent node_modules
+130 verbose linkBins jasmine-core@2.3.4
+131 verbose linkMans jasmine-core@2.3.4
+132 verbose rebuildBundles jasmine-core@2.3.4
+133 info install jasmine-core@2.3.4
+134 info postinstall jasmine-core@2.3.4
+135 verbose rebuild bundle /var/www/site/front/node_modules/karma
+136 info build /var/www/site/front/node_modules/karma
+137 info preinstall karma@0.12.37
+138 info linkStuff karma@0.12.37
+139 silly linkStuff karma@0.12.37 has /var/www/site/front/node_modules as its parent node_modules
+140 verbose linkBins karma@0.12.37
+141 verbose link bins [ { karma: './bin/karma' },
+141 verbose link bins   '/var/www/site/front/node_modules/.bin',
+141 verbose link bins   false ]
+142 verbose linkMans karma@0.12.37
+143 verbose rebuildBundles karma@0.12.37
+144 silly gentlyRm /var/www/site/front/node_modules/.bin/karma is being purged
+145 verbose gentlyRm don't care about contents; nuking /var/www/site/front/node_modules/.bin/karma
+146 info install karma@0.12.37
+147 info postinstall karma@0.12.37
+148 verbose rebuild bundle /var/www/site/front/node_modules/phantomjs
+149 info build /var/www/site/front/node_modules/phantomjs
+150 info preinstall phantomjs@1.9.17
+151 info linkStuff phantomjs@1.9.17
+152 silly linkStuff phantomjs@1.9.17 has /var/www/site/front/node_modules as its parent node_modules
+153 verbose linkBins phantomjs@1.9.17
+154 verbose link bins [ { phantomjs: './bin/phantomjs' },
+154 verbose link bins   '/var/www/site/front/node_modules/.bin',
+154 verbose link bins   false ]
+155 verbose linkMans phantomjs@1.9.17
+156 verbose rebuildBundles phantomjs@1.9.17
+157 verbose rebuildBundles [ '.bin',
+157 verbose rebuildBundles   'adm-zip',
+157 verbose rebuildBundles   'fs-extra',
+157 verbose rebuildBundles   'kew',
+157 verbose rebuildBundles   'npmconf',
+157 verbose rebuildBundles   'progress',
+157 verbose rebuildBundles   'request',
+157 verbose rebuildBundles   'request-progress',
+157 verbose rebuildBundles   'which' ]
+158 silly gentlyRm /var/www/site/front/node_modules/.bin/phantomjs is being purged
+159 verbose gentlyRm don't care about contents; nuking /var/www/site/front/node_modules/.bin/phantomjs
+160 silly vacuum-fs purging /var/www/site/front/node_modules/.bin/phantomjs
+161 silly vacuum-fs quitting because other entries in /var/www/site/front/node_modules/.bin
+162 info install phantomjs@1.9.17
+163 verbose unsafe-perm in lifecycle false
+164 info phantomjs@1.9.17 Failed to exec install script
+165 verbose stack Error: phantomjs@1.9.17 install: `node install.js`
+165 verbose stack Exit status 1
+165 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+165 verbose stack     at EventEmitter.emit (events.js:98:17)
+165 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+165 verbose stack     at ChildProcess.EventEmitter.emit (events.js:98:17)
+165 verbose stack     at maybeClose (child_process.js:743:16)
+165 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:810:5)
+166 verbose pkgid phantomjs@1.9.17
+167 verbose cwd /var/www/site/front
+168 error Linux 3.13.0-57-generic
+169 error argv "node" "/usr/local/bin/npm" "install"
+170 error node v0.10.25
+171 error npm  v2.11.3
+172 error code ELIFECYCLE
+173 error phantomjs@1.9.17 install: `node install.js`
+173 error Exit status 1
+174 error Failed at the phantomjs@1.9.17 install script 'node install.js'.
+174 error This is most likely a problem with the phantomjs package,
+174 error not with npm itself.
+174 error Tell the author that this fails on your system:
+174 error     node install.js
+174 error You can get their info via:
+174 error     npm owner ls phantomjs
+174 error There is likely additional logging output above.
+175 verbose exit [ 1, true ]

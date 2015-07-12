@@ -9,13 +9,13 @@
 
     <title>Leandro Leite</title>
 
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/ionicons.min.css" />
-    <link rel="stylesheet" href="/css/app.css"/>
+    <link rel="stylesheet" href="/css/app.min.css"/>
 
   </head>
 
-  <body ng-app="site">
+  <body>
     <div class="container">
       <div class="row fix-space-top">
 
