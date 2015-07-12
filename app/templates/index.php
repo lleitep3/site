@@ -8,11 +8,7 @@
     <meta name="theme-color" content="#00838F">
 
     <title>Leandro Leite</title>
-
-    <link rel="stylesheet" href="/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/css/ionicons.min.css" />
-    <link rel="stylesheet" href="/css/app.min.css"/>
-
+    <link rel="stylesheet" href="/css/main.css" />
   </head>
 
   <body>
