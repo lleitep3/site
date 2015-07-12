@@ -8,7 +8,6 @@
     <meta name="theme-color" content="#00838F">
 
     <title>Leandro Leite</title>
-    <link rel="stylesheet" href="/css/main.css" />
   </head>
 
   <body>
@@ -56,7 +55,10 @@
 
       </div>
     </div>
-     <script>
+
+    <link rel="stylesheet" href="/css/main.css" />
+
+    <script>
        !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
        (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
        r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
