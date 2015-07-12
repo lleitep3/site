@@ -1,0 +1,8 @@
+connection:
+  username: finances
+  dbname:   db_mb
+  user:     root
+  password: root
+  host:     localhost
+  driver:   pdo_mysql
+  charset:  utf8mb4
